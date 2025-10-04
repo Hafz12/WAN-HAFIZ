@@ -14,7 +14,7 @@ st.title("Wan Muhammad Hafiz Bin Wan Ibrahim")
 col1, col2 = st.columns([1, 2])  # ✅ Fixed unpacking
 with col1:
     # 👉 Replace the link below with your GitHub raw image URL
-    st.image("https://raw.githubusercontent.com/<your-username>/<repo-name>/main/profile.jpg", 
+    st.image("WhatsApp_Image_2025-06-12_at_16.57.36_99ca5643-removebg-preview (1).png", 
              caption="Profile Picture", width=180)
 
 with col2:

@@ -18,8 +18,7 @@ with col1:
              caption="Profile Picture", width=180)
 
 with col2:
-    st.header("Contact Information")
-st.header("📞 Contact Information")
+st.header(" Contact Information")
 st.write("📧 Email: s22a0055@siswa.umk.edu.my")
 st.write("📞 Phone: +60 11-6379 8373")
 st.write("🏠 Location: Malaysia")

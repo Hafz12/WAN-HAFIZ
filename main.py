@@ -13,62 +13,72 @@ st.title("💼 Wan Muhammad Hafiz Bin Wan Ibrahim's Resume")
 # --- Profile and Contact Info ---
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image("https://via.placeholder.com/150", caption="Profile Picture", width=150)
+    st.image("C:\Users\leosy\Downloads\WhatsApp_Image_2025-06-12_at_16.57.36_99ca5643-removebg-preview (1).png", caption="Profile Picture", width=150)
 with col2:
     st.header("Contact Information")
-    st.write("📧 Email: hafiz@example.com")
-    st.write("📞 Phone: +60 12-345 6789")
-    st.write("🔗 LinkedIn: [linkedin.com/in/hafiz](https://linkedin.com/in/hafiz)")
+    st.write("📧 Email: s22a0055@siswa.umk.edu.my")
+    st.write("📞 Phone: +60 11-6379 8373")
     st.write("🏠 Location: Malaysia")
 
 st.markdown("---")
 
 # --- Education ---
 st.header("🎓 Education")
-st.write("**Bachelor of Information Technology (Software Engineering)**, Universiti Malaysia Kelantan (UMK)")
-st.write("_Expected Graduation: 2025_")
+st.write("**Bachelor of Information Technology (Hons)**, Universiti Malaysia Kelantan (2022 - 2026)")
 
-# --- Work Experience ---
-st.header("💻 Work Experience")
-st.write("**Intern – Software Developer**, VHI Power Sdn. Bhd. (2024)")
-st.write("- Assisted in developing a Flutter-based mobile app integrated with Firebase.")
-st.write("- Collaborated with team members to improve app performance and UI design.")
-st.write("- Conducted testing and bug fixing for internal management systems.")
+st.write("**Matriculation of Negeri Sembilan**, Matriculation KPM Certificate (2020 - 2022)")
+st.write("- CGPA: 3.38")
+
+st.markdown("---")
 
 # --- Skills ---
 st.header("🛠 Skills")
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.markdown("- Python 🐍")
-    st.markdown("- Streamlit 💻")
-with col2:
-    st.markdown("- Flutter 📱")
-    st.markdown("- Firebase 🔥")
-with col3:
-    st.markdown("- Machine Learning 🤖")
-    st.markdown("- Project Management 📊")
+st.subheader("Programming Languages")
+st.markdown("- Python   \n- Java   \n- Dart (Flutter) ")
+
+st.subheader("AI & Machine Learning")
+st.markdown("- Object Detection  \n- Image Classification  \n- TensorFlow  \n- Google Colab")
+
+st.subheader("Development Tools")
+st.markdown("- Android Studio  \n- FlutterFlow  \n- Visual Studio Code")
+
+st.subheader("Database & Backend")
+st.markdown("- Firebase ")
+
+st.markdown("---")
 
 # --- Projects ---
-st.header("🚀 Projects & Achievements")
+st.header("🚀 Projects")
 st.markdown("""
-**Wasteless App** – A food waste reduction platform connecting donors and NGOs.
-- Developed using Flutter and Firebase.
-- Won *Top 5 Innovation Award* at UMK TechFair 2024.
+**Wasteless App** – A food waste reduction platform connecting donors and NGOs.  
+- Developed using Flutter and Firebase.    
 
-**Snake Detection System** – Real-time object detection using YOLOv8.
-- Integrated with FlutterFlow for mobile notifications.
+**Snake Detection System** – Real-time object detection using YOLOv8.  
+- Integrated with FlutterFlow for mobile notifications.  
 - Designed to enhance safety in rural environments.
 """)
 
-# --- Extra Info ---
+st.markdown("---")
+
+# --- Achievements ---
+st.header("🏅 Achievements & Competitions")
+st.markdown("""
+- 🧠 **Big Spark Competition 2024** – Participant 
+- 🥇 **International Research and Information Science Expo 2025** – Gold Medal  
+- 🦁 **Lion’s Lair Competition 2024** – Participant  
+- 🥉 **Malaysia Techlympic 2023** – 3rd Place  
+- 🧪 **Matriculation STEM Carnival 2021** – Bronze Medal  
+""")
+
+st.markdown("---")
+
+# --- Additional Info ---
 st.header("📚 Additional Information")
 st.markdown("""
-- Languages: English, Malay  
-- Interests: Teaching, AI Research, and Drawing ✏️  
-- Dream Career: University Lecturer 🎓  
+- Languages: English, Malay, Chinese(Beginner)
+- Interests: AI Research, Planting and Drawing   
+- Dream Career: -   
 """)
 
 # --- Footer ---
 st.markdown("---")
-st.markdown("💡 *Created with ❤️ using Streamlit*")
-

@@ -8,12 +8,10 @@ st.set_page_config(page_title="My Streamlit Resume", page_icon="💼", layout="w
 # ===============================
 # 💼 RESUME SECTION
 # ===============================
-st.title("💼 Wan Muhammad Hafiz Bin Wan Ibrahim's Resume")
+st.title("Wan Muhammad Hafiz Bin Wan Ibrahim")
 
 # --- Profile and Contact Info ---
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.image("C:\Users\leosy\Downloads\WhatsApp_Image_2025-06-12_at_16.57.36_99ca5643-removebg-preview (1).png", caption="Profile Picture", width=150)
+col2 = st.columns([1, 2])
 with col2:
     st.header("Contact Information")
     st.write("📧 Email: s22a0055@siswa.umk.edu.my")

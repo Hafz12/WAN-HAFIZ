@@ -11,7 +11,7 @@ st.set_page_config(page_title="My Streamlit Resume", page_icon="💼", layout="w
 st.title("Wan Muhammad Hafiz Bin Wan Ibrahim")
 
 # --- Profile and Contact Info ---
-st.image("https://raw.githubusercontent.com/<your-username>/<repo-name>/main/profile.jpg")
+st.image("WhatsApp_Image_2025-06-12_at_16.57.36_99ca5643-removebg-preview (1).png")
 st.header("📞 Contact Information")
 st.write("📧 Email: s22a0055@siswa.umk.edu.my")
 st.write("📞 Phone: +60 11-6379 8373")

@@ -6,30 +6,6 @@ import streamlit as st
 st.set_page_config(page_title="My Streamlit Resume", page_icon="💼", layout="wide")
 
 # ===============================
-# 🌟 MAIN TITLE
-# ===============================
-st.title("🌟 My First Streamlit App")
-st.subheader("A simple example without pandas or numpy")
-
-# ===============================
-# 🧍 INTERACTIVE SECTION
-# ===============================
-st.header("👋 Interactive Section")
-name = st.text_input("What's your name?", "Guest")
-age = st.number_input("Enter your age:", min_value=1, max_value=120, value=25)
-
-if st.checkbox("Show greeting"):
-    st.write(f"Hello, *{name}*! 👋 You are {age} years old.")
-
-if st.button("Click me"):
-    st.success("🎉 You clicked the button!")
-
-color = st.selectbox("Pick a color", ["Red", "Green", "Blue"])
-st.write(f"Your favorite color is: {color}")
-
-st.markdown("---")
-
-# ===============================
 # 💼 RESUME SECTION
 # ===============================
 st.title("💼 Wan Muhammad Hafiz Bin Wan Ibrahim's Resume")

@@ -7,7 +7,7 @@ POP_SIZE = 500
 MUT_RATE = 0.2
 
 #TARGET: Our goal.
-TARGET = 'chrysalis'
+TARGET = 'Hafiz'
 
 #GENES: Options from which our population would be created.
 GENES = ' abcdefghijklmnopqrstuvwxyz'

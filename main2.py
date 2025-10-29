@@ -9,7 +9,7 @@ st.set_page_config(
 #analysis = st.Page('PLO_sum.py', title='Pencapaian Akademik', icon=":material/school:")
 #overall = st.Page('Overall_PLO.py', title="Overall PLO")
 genetic = st.Page('GA.py', title='Genetic Algorithm', icon=":material/business:")
-travelling = st.Page('tsp.py', title='Travelling Salesman', icon=":material/business:")
+travelling = st.Page('TSP.py', title='Travelling Salesman', icon=":material/business:")
 home = st.Page('home.py', title='Homepage', default=True, icon=":material/home:")
 
 pg = st.navigation(
